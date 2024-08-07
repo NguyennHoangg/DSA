@@ -24,8 +24,9 @@ void isPrime(int n){
     
 int main(){
     int n; cin >> n;
+    isPrime(n);
     for(int i = 0; i <= n; i++){
-        if(prime){
+        if(prime[i]){
             cout << i << " ";
         }
     }
